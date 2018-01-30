@@ -1,0 +1,111 @@
+html {
+	width: 100%;
+	height: 100%;   
+}
+
+/* Global settings */
+
+* {
+    
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.videoWrapper {
+  width: 100%;
+  height: 200px;
+}
+
+
+
+.mejs__container {
+    width: 100%;
+    height: 100%;
+}
+
+.mejs__time-current, mejs__fullscreen-button {  
+    background-color: #f4bc42;
+}
+
+
+
+/* Paragraphs under the video */
+
+.paragraphs { 
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    line-height: 2;
+                
+}
+
+
+
+.paragraphs p {
+    
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* Text highlighted */
+
+.highlight {
+  color: #f4bc42;
+}
+
+/* Addind a pointer when mouse is on span that are clickable */
+
+div span {
+
+        cursor: pointer;
+        
+    }
+
+
+/* Media query */
+
+
+
+@media (min-width: 768px){
+    
+.wrapper {
+    width: 70%;
+    margin: 30px auto 0;
+    height: 400px;
+  }
+    
+.paragraphs {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: block;
+        width: 70%;
+    }   
+.paragraphs  p {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+}
+
+    
+@media (min-width: 1440px) {
+    .wrapper {
+       height: 580px; 
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+

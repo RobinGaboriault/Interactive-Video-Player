@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Video Player</title>
+    
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mediaelementplayer.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    
+    </head>    
+    
+    <body>
+    
+        <div class="wrapper">
+            
+            <div class="videoWrapper">
+                <video id="mejs__player" preload="auto">
+                    <source src ="videos/video.mp4" type="video/mp4">
+                    <source src ="videos/video.ogg" type="video/ogg">
+                  <!--  <track label="English" kind="subtitles" srclang="en" src="captions.txt" default> -->
+                 </video>
+            </div>       
+        
+        </div>
+
+            
+            
+            <div class="paragraphs">
+                <p>
+                    <span data-timecodestart="00.240" data-timecodestop="04.00">Now that we've looked at the architecture of the internet, let's see how you might</span>
+                    <span data-timecodestart="4.130" data-timecodestop="7.535"> connect your personal devices to the internet inside your house.</span> 
+                    <span data-timecodestart="7.535" data-timecodestop="11.270">Well there are many ways to connect to the internet, and </span>
+                    <span data-timecodestart="11.270" data-timecodestop="13.960"> most often people connect wirelessly.</span>
+                </p>
+                
+                <p>
+                    <span data-timecodestart="13.960" data-timecodestop="17.940">Let's look at an example of how you can connect to the internet.</span>
+                    <span data-timecodestart="17.940" data-timecodestop="22.370"> If you live in a city or a town, you probably have a coaxial cable for</span>
+                    <span data-timecodestart="22.370" data-timecodestop="26.880"> cable Internet, or a phone line if you have DSL, running to the outside of</span>
+                    <span data-timecodestart="26.880" data-timecodestop="30.920"> your house, that connects you to the Internet Service Provider, or ISP.</span>
+                    <span data-timecodestart="32.100" data-timecodestop="34.730"> If you live far out in the country, you'll more likely have</span>
+                    <span data-timecodestart="34.730" data-timecodestop="39.430"> a dish outside your house, connecting you wirelessly to your closest ISP, or</span>
+                    <span data-timecodestart="39.430" data-timecodestop="41.190"> you might also use the telephone system.</span>
+                </p>
+
+                <p>
+                    <span data-timecodestart="42.350" data-timecodestop="46.300">Whether a wire comes straight from the ISP hookup outside your house, or</span>
+                    <span data-timecodestart="46.300" data-timecodestop="49.270"> it travels over radio waves from your roof,</span>
+                    <span data-timecodestart="49.270" data-timecodestop="53.760"> the first stop a wire will make once inside your house, is at your modem.</span>
+                    <span data-timecodestart="53.760" data-timecodestop="57.780"> A modem is what connects the internet to your network at home.</span>
+                    <span data-timecodestart="57.780" data-timecodestop="60.150"> A few common residential modems are DSL or</span>
+                </p>
+                
+            </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="JavaScript/mediaelement-and-player.js"></script>
+    <script src="JavaScript/app.js"></script>
+   
+    </body>
+</html>
