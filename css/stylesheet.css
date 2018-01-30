@@ -24,7 +24,7 @@ html {
     height: 100%;
 }
 
-.mejs__time-current, mejs__fullscreen-button {  
+.mejs__time-current {  
     background-color: #f4bc42;
 }
 
@@ -74,7 +74,7 @@ div span {
 .wrapper {
     width: 70%;
     margin: 30px auto 0;
-    height: 400px;
+    height: 300px;
   }
     
 .paragraphs {
